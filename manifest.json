@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "Nepal E-commerce Price Comparison",
+  "version": "1.0",
+  "description": "Compare product prices on different e-commerce websites in Nepal.",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "webRequest",
+    "webNavigation",
+    "https://*/*"
+  ],
+  "browser_action": {
+    "default_icon": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    },
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://knotup.com.np/*", "https://daraz.com.np/*", "https://www.sastodeal.com/*", "https://gyapu.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
