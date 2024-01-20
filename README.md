@@ -21,18 +21,18 @@ NepEcomCompare is a handy Chrome extension that lets you compare product prices 
 2. Load Extension in Chrome:
 
    - **Open Chrome and navigate to chrome://extensions/.**
-   - **Enable "Developer mode" at the top right.
-   - **Click on "Load unpacked" and select the folder containing your extension files.
+   - **Enable "Developer mode" at the top right.**
+   - **Click on "Load unpacked" and select the folder containing your extension files.**
 
 3. Configure and Edit:
 
-   - **Modify content.js to extract product information from the targeted websites.
-   - **Customize the extension's appearance and behavior in the manifest.json file.
+   - **Modify content.js to extract product information from the targeted websites.**
+   - **Customize the extension's appearance and behavior in the manifest.json file.**
 
 4. Enjoy the Price Comparison:
 
-   - **Visit one of the supported e-commerce websites.
-   - **Click on the NepEcomCompare extension icon to view a popup with price details.
+   - **Visit one of the supported e-commerce websites.**
+   - **Click on the NepEcomCompare extension icon to view a popup with price details.**
 
 ## Contributing 🤝
 
