@@ -16,7 +16,7 @@ NepEcomCompare is a handy Chrome extension that lets you compare product prices 
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/NepEcomCompare.git
+   git clone https://github.com/nikhiltamatta/Nepal-Ecommerce-Price-Comparator-Extension-.git
 
 2. Load Extension in Chrome:
 
